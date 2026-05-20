@@ -1,14 +1,25 @@
-# Stoperica
+# ⏱️ Štoperica
 
-Simulacija digitalne stoperice urađena u Flowcode-u.  
-Projekat koristi LED ekran za prikaz vremena i podržava funkcije Start, Stop, Lap i Reset.
+Simulacija digitalne štoperice urađena u Flowcode-u sa LCD displejom.
 
-## Tehnologije
+## 📋 Opis
+
+Projekat simulira rad digitalne štoperice pomoću PIC mikrokontrolera i LCD displeja.  
+Korisnik može upravljati štopericом pomoću 4 dugmeta:
+
+| Dugme | Funkcija |
+|-------|----------|
+| ▶️ Start | Pokretanje mjerenja vremena |
+| ⏹️ Stop  | Zaustavljanje mjerenja |
+| 🔁 Lap   | Bilježenje međuvremena |
+| 🔄 Reset | Resetovanje na 00:00 |
+
+## 🛠️ Tehnologije
 
 - Flowcode
 - PIC mikrokontroler
-- LED Display
+- LCD displej
 
-## Autor
+## 👤 Autor
 
-Ahmed Mrakanović
+Ahmed Mrakanović — ETŠ Tuzla
