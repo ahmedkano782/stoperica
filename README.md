@@ -1,25 +1,24 @@
-# ⏱️ Štoperica
+# Štoperica
 
-Simulacija digitalne štoperice urađena u Flowcode-u sa LCD displejom.
+Projekat rađen u Flowcode-u kao simulacija digitalne štoperice. Koristi PIC mikrokontroler i LCD displej za prikaz vremena.
 
-## 📋 Opis
+## Kako radi
 
-Projekat simulira rad digitalne štoperice pomoću PIC mikrokontrolera i LCD displeja.  
-Korisnik može upravljati štopericом pomoću 4 dugmeta:
+Štoperica mjeri vrijeme u formatu minute:sekunde:stotinke i prikazuje ga na LCD ekranu. Ima četiri tastera:
 
-| Dugme | Funkcija |
-|-------|----------|
-| ▶️ Start | Pokretanje mjerenja vremena |
-| ⏹️ Stop  | Zaustavljanje mjerenja |
-| 🔁 Lap   | Bilježenje međuvremena |
-| 🔄 Reset | Resetovanje na 00:00 |
+| Taster | Funkcija |
+|--------|----------|
+| Start | Pokreće mjerenje |
+| Stop | Zaustavlja mjerenje |
+| Lap | Bilježi međuvrijeme |
+| Reset | Vraća sve na nulu |
 
-## 🛠️ Tehnologije
+## Tehnologije
 
 - Flowcode
-- PIC mikrokontroler
+- PIC 16F88
 - LCD displej
 
-## 👤 Autor
+## Autor
 
-Ahmed Mrakanović — ETŠ Tuzla
+Ahmed Mrakanović, ETŠ Tuzla
